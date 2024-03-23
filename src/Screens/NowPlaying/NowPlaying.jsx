@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { CardConteiner } from '../../Components/CardConteiner/CardConteiner'
 import styles from './NowPlaying.module.css'
-import { DataProvider } from '../../../../Utils/DataProvider'
+import { DataProvider } from '../../Utils/DataProvider'
 import { Loader } from '../../Components/Loader/Loader'
 import { Pagination } from '../../Components/Pagination/Pagination'
 import { DetailModal } from '../../Components/DetailModal/DetailModal'

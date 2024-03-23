@@ -4,7 +4,7 @@ import { CardConteiner } from '../../Components/CardConteiner/CardConteiner';
 import { DetailModal } from '../../Components/DetailModal/DetailModal';
 import { Pagination } from '../../Components/Pagination/Pagination';
 import { Loader } from '../../Components/Loader/Loader';
-import { DataProvider } from '../../../../Utils/DataProvider';
+import { DataProvider } from '../../Utils/DataProvider';
 
 export const Search = () => {
     const [loandig, setLoanding]= useState(false);

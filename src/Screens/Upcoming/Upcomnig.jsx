@@ -3,7 +3,7 @@ import { Loader } from '../../Components/Loader/Loader';
 import { CardConteiner } from '../../Components/CardConteiner/CardConteiner';
 import { Pagination } from '../../Components/Pagination/Pagination';
 import Styles from './Upcomnig.module.css'
-import { DataProvider } from '../../../../Utils/DataProvider';
+import { DataProvider } from '../../Utils/DataProvider';
 import { DetailModal } from '../../Components/DetailModal/DetailModal';
 
 export const Upcomnig = () => {

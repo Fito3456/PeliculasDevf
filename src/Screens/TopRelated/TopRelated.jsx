@@ -3,7 +3,7 @@ import { Pagination } from '../../Components/Pagination/Pagination';
 import { CardConteiner } from '../../Components/CardConteiner/CardConteiner';
 import { Loader } from '../../Components/Loader/Loader';
 import React, { useEffect, useState } from 'react'
-import { DataProvider } from '../../../../Utils/DataProvider';
+import { DataProvider } from '../../Utils/DataProvider';
 import { DetailModal } from '../../Components/DetailModal/DetailModal';
 
 export const TopRelated = () => {

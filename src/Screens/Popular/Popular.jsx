@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Loader } from '../../Components/Loader/Loader'
 import { CardConteiner } from '../../Components/CardConteiner/CardConteiner'
-import { DataProvider } from '../../../../Utils/DataProvider';
+import { DataProvider } from '../../Utils/DataProvider';
 import  Styles  from './Popular.module.css'
 import { Pagination } from '../../Components/Pagination/Pagination';
 import { DetailModal } from '../../Components/DetailModal/DetailModal';
