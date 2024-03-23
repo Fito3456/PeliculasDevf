@@ -1,0 +1,11 @@
+.titulo{
+    margin-bottom: 1rem;
+    position: relative;
+    text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.3);
+    border-bottom: 0.5rem solid white;
+    width: 429px;
+    color: white;
+    text-indent: 98px;
+    left: 466px;
+    font-size: 36px;
+}
