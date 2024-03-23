@@ -1,0 +1,246 @@
+.card {
+    width: 100%;
+    height: 254px;
+    background: rgb(48, 46, 46);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .uli {
+    list-style: none;
+    background-color: transparent;
+    width: 170px;
+    position: relative;
+    left: 1000px;
+    top: 4px;
+  }
+  
+  .link{
+    color: rgb(238, 234, 234);
+    margin-right: 19px;
+    background-color:  transparent;
+    position: relative;
+    left: 61px;
+    top: 33px;
+    font-size: 19px;
+}
+
+.link:hover{
+    color: rgb(107, 107, 107);
+    transition: all 300ms;
+
+}
+.lista{
+    height: 19px;
+    background-color: transparent;
+    margin-bottom: 18px;
+}
+.titulos{
+    background: transparent;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 26px;
+    top: 19px;
+    left: 934px;
+    width: 330px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background: transparent;
+    position: relative;
+    top: -157px ;
+    left: 27px;
+    width: 156px;
+    background-color: transparent;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em; 
+    background-color: transparent;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    background-color: transparent;
+  }
+  
+  .card1 {
+    width: 189px;
+    height: 87px;
+        outline: none;
+        border: none;
+        background: white;
+        border-radius: 90px 90px 0px 0px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        transition: 0.2s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1px;
+    fill: #cc39a4;
+    background-color: transparent;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    background-color: transparent;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+    background-color: transparent;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+  .link2{
+    background-color: transparent;
+  }
+  .tituloDos{
+    position: relative;
+    top: -160px;
+    left: 39px;
+    width: 330px;
+    background-color: transparent;
+    color: white;
+  }
+.contenedorInformacion{
+    top: -370px;
+    position: relative;
+    display: grid;
+    gap: 18px;
+    background-color: transparent;
+    height: 233px;
+}
+.contenedorInformacion > h3{
+    position: relative;
+    left: 318px;
+    width: 330px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    top: 85px;
+}
+
+.informacion{
+    position: relative;
+    left: 642px;
+    width: 330px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    top: -249px;
+}
+
+.flechas{
+    width: 330px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 593px;
+    top: 8px;
+}
+.flechasArriba{
+    width: 330px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 593px;
+    top: -92px;
+}
+.flechasAbajo{
+    width: 330px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    left: 593px;
+    top: -146px;
+}
