@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavBar } from '../../Components/Navbar/NavBar'
 import { Outlet } from 'react-router-dom'
+import { Footer } from '../../Components/Footer/Footer'
 
 
 export const Home = () => {
@@ -8,7 +9,7 @@ export const Home = () => {
     <div >
         <NavBar/>
         <Outlet />
-        <h1>Footer</h1>
+        <Footer/>
     </div>
   )
 }
