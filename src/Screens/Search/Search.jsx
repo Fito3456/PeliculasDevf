@@ -50,7 +50,7 @@ export const Search = () => {
         <div>
         <input type='text' placeholder='Ingresa un nombre' className={style.input} onKeyDown={(e) => handleKeyDown(e)}
         onChange={(e) => setText(e.target.value)} value={text} />
-        <button className={style.btn} onClick={handleClink}><img src='https://cdn.icon-icons.com/icons2/1111/PNG/128/loupe_79257.png'></img></button>
+        <button className={style.btn} onClick={handleClink}><img className={style.imag} src='https://cdn.icon-icons.com/icons2/1111/PNG/128/loupe_79257.png'></img></button>
         </div>
         <h1 className={style.titulo}>Resultados:</h1>
         {

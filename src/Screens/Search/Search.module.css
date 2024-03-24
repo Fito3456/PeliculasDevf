@@ -75,7 +75,7 @@
 .imag{
  color: white;
 }
-.btn img {
+.imag:hover {
   color: black;
 }
 
