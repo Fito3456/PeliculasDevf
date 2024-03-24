@@ -75,7 +75,7 @@
 .imag{
   background-color: transparent;
   background-size: 50px 50px;
-  background-image: url('../../assets/Lupa.png');
+  background-image: url('../../assets/busqueda-de-lupa.png');
 }
 .imag:hover{
  background-color: white;
