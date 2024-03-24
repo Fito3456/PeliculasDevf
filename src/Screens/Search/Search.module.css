@@ -65,11 +65,12 @@
 }
 
 .btn {
+  width: 0px;
   border-radius: 99rem;
   border-width: 2px;
   overflow: hidden;
   left: 41px;
-  padding: 0.8rem 3rem;
+  padding: 1rem 2rem;
   position: relative;
   height: 48px;
   top: 24px;
@@ -87,8 +88,8 @@
     align-items: center;
     border: 2px solid transparent;
     border-radius: 50%;
-    left: 5px;
-    top: -13px;
+    left: -26px;
+    top: -19px;
 }
  
 
