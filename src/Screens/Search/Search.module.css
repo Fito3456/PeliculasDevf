@@ -72,9 +72,11 @@
   padding: 0.8rem 3rem;
   position: relative;
 }
-
-.btn span {
-  mix-blend-mode: difference;
+.imag{
+ color: white;
+}
+.btn img {
+  color: black;
 }
 
 .btn:after,
