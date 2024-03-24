@@ -71,20 +71,22 @@
   left: 41px;
   padding: 0.8rem 3rem;
   position: relative;
+  height: 48px;
+  top: 24px;
 }
 .imag{
-
-    background-color: transparent;
-    background-image: url('../../assets/busqueda-de-lupa.png');
-    background-position: center;
-    background-size: 30px 30px;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  left: 5px;
+  background-color: transparent;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfnCgkWGxBcB9KNAAADuUlEQVRIx7WUbUxbZRTH/+cCQTbe3DoyWYopujDX+cE4wjAzm1UJAbaQoCUmhoTFMNgmCINCi3J7K7SXt7GtTmcLm+hiIgv6AVlIUCPRlRYEJy4YFZBJEDN5MXMjMLj3+MHQDyxNxbjz6bw855/fc56Th7DORBa5hWNjSV3dtDxfWkqD7BKeMBpxAE+yXqfDZnjxyuIiRVIx3uzvV24oP5DF6ZRI1pqMPT3YoNGaY1t+I0ye0+u5V/mZvrhyBUNwYSIhATaUwq0o6MNV+nV8HD8hj5M0GkzhBF7esmWtn3PxNnznz3NS2MJi5/HjEkkkkaoGAwiVHZUm2RETs6xXRiiluxvj2IY5rZbn6EdKbmjgmlDNA4/W1UkkZReP3boFAPgesBVVpTm6k5N5kJKFYxcvEghAYaHQcnd4c8709D/ytbVBJ2ALN8807KqpYQs5OV+S+BhvpXeamqzbHCdNkxUVwQREFrnx/bg4IX7ldTVzZAR/IhuvRUeri2F7Q0oSEiSSqHzv7GygfoGH6RyH5+TAimrIzOGt/Idy1G7/t28okUQVeTdv8iS187jbjSp8gj0RESHelZLVpvT0YP0CUpGKF3U67EQadk1Oms2ybDYvLGx4mdzYGfL88LA/cZDNwrXExOAAbjqE3+7cwe+wIFOjEVlkkQVhowD4SHUoH8TF+eMUwaWO3L4dHOBbjuei/n6cxFWERUUBq79EGPbv3/AE5iiJPs3IWIuVPszSbo8nKIDqoCnec/asP9HHE/RxW1vt59XPnNq3Y0cwASnFPCPLRUWci0Y8cvgwjmIAIQMDEtU5K8e83qDga451xnypfqW5mVw0ilNlZdDiLVyan+dDLNJfFy4ICrWr7w4NwURbqU+j4SiOhiU9HXHQ41xmpl9xAqHY3tuLCc7gBzs7H3t1rDlxqbXVaLx82WhUlIAAzAAzkU1rKW4MLStDFTxQrVbMIY3lyMiAV/CggE/4fMilZ+mr0VFMcS6+y8/317dTD2Lb29WC0KHFgiNH1n9QFEh37UsOubsSuTyflsYPwUlf6nTQoI26lpbocfaRweut6XSsVuT5fCKbDQ3xWVmCjfZxSVfXej1+AR3ocLnE3fYx0zeFhUQAEXNAgP9qEpu5nq1W2KgaDaJ4z4EDMPBTTqd40P5c1dPFxf87gB/khuWl+kJZxnvQQVdZec9EyqmbH7bb7xuAH8Rj6ZCnTp9GL67RhyUl/kI2YtBy/fp9B/Avd5/ls/qvz5xBOafStMGgDqqb1NysrL8Bd7mUjAFTLd0AAAAASUVORK5CYII=);
+  background-position: center;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -13px;
 }
  
 
