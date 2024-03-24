@@ -75,7 +75,7 @@
 .imag{
   background-color: transparent;
   background-size: 50px 50px;
-  background-image: url(https://cdn.icon-icons.com/icons2/1111/PNG/128/loupe_79257.png);
+  background-image: url('../../assets/Lupa.png');
 }
 .imag:hover{
  background-color: white;
