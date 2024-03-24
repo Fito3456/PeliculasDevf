@@ -65,15 +65,14 @@
 }
 
 .btn {
+  background: transparent;
   width: 0px;
-  border-radius: 99rem;
-  border-width: 2px;
   overflow: hidden;
-  left: 41px;
+  left: 20px;
   padding: 1rem 2rem;
   position: relative;
   height: 48px;
-  top: 24px;
+  top: 21px;
 }
 .imag{
     background-color: transparent;
@@ -95,15 +94,7 @@
 
 .btn:after,
 .btn:before {
-  background: linear-gradient(
-    90deg,
-    #fff 25%,
-    transparent 0,
-    transparent 50%,
-    #fff 0,
-    #fff 75%,
-    transparent 0
-  );
+  background: transparent;
   content: "";
   inset: 0;
   position: absolute;
